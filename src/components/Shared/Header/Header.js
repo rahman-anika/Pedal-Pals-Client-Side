@@ -35,6 +35,10 @@ const Header = () => {
                         <Nav.Link as={HashLink} to="/home#products">Products</Nav.Link>
                         {/* services section ends */}
 
+                        {/* Explore products section starts */}
+                        < Nav.Link as={Link} className="item m-2 p-2" to="/products">Explore</Nav.Link>
+                        {/* Explore products section ends  */}
+
                         {/* reviews section starts */}
                         <Nav.Link as={HashLink} to="/home#reviews">Reviews</Nav.Link>
                         {/* reviews section ends */}
@@ -44,8 +48,6 @@ const Header = () => {
                         {/* about section starts */}
                         <Nav.Link as={HashLink} to="/home#about">About Us</Nav.Link>
                         {/* about section ends */}
-
-
 
 
 

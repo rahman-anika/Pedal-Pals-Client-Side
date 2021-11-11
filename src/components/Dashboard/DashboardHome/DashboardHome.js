@@ -10,7 +10,7 @@ const DashboardHome = () => {
         <div>
             <h2 className="mt-5">Welcome To PedalPals, {user.displayName}</h2>
 
-            <img src={dashboardHome} alt="" />
+            <img className="img-fluid" src={dashboardHome} alt="" />
 
         </div>
     );
