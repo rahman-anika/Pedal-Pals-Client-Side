@@ -1,0 +1,42 @@
+/* login form style starts  */
+.login-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background:#E2F1F1; */
+    text-align: center;
+  }
+  
+  .my-cart {
+    width: 600px;
+    background:#E2F1F1;
+    text-align: center;
+    margin: 50px 20px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    box-shadow: -1px 15px 21px -6px rgba(169, 49, 49, 0.61);
+    -webkit-box-shadow: -1px 15px 21px -6px rgba(169, 49, 49, 0.61);
+    -moz-box-shadow: -1px 15px 21px -6px rgba(169, 49, 49, 0.61);
+  }
+  /* login form style ends  */
+  
+/* login form input style starts  */
+  input {
+    padding: 7px 7px;
+    width: 300px;
+    margin: 5px 0px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+  }
+  input:focus {
+    background-color: rgb(223, 223, 223);
+  }
+/* login form input style ends  */
+  
+
+  
+  
+  
+  
+  

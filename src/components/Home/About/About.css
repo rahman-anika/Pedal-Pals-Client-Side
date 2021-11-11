@@ -1,0 +1,56 @@
+/* about section title style starts */
+.about-title{
+    color:rgb(19, 113, 150);
+    
+    }
+    /* about section title style ends */
+    
+    
+    /* about section facilities style starts */
+    .about-facilities{
+      background-color: #E2F1F1;
+      padding: 14px 12px;
+      height: 200px;
+      
+    }
+    /* about section facilities style ends */
+    
+    
+    /* about section icon style starts */
+    .about_us i {
+        
+        background-color: #092efd;
+        font-size: 24px;
+        color: white;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 50%;
+      }
+    /* about section icon style ends */
+    
+    
+    /* about section a href style starts  */
+      a {
+        text-decoration: none;
+        font-weight: bold;
+      }
+    /* about section a href style ends  */
+      
+    
+    /* showmore button right arrow style starts */
+      .showmore_btn {
+        background-color: #092efd;
+        color: white;
+        border-radius: 25%;
+        border: none;
+        text-align: center;
+      }
+    /* showmore button right arrow style ends */
+
+
+    .about-image{
+      height:600px;
+      padding-top: 31px;
+
+    }
+      

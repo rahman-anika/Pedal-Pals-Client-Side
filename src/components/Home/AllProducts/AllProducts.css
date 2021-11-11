@@ -1,0 +1,53 @@
+/* service title style starts  */
+.service-title {
+    font-size: 38px;
+    font-weight: bold;
+    color: rgb(19, 113, 150);
+  
+  }
+  /* service title style ends  */
+
+  
+  /* service card style starts */
+  .service{
+      background-color: rgb(226, 241, 241);
+      border-radius:20px ;
+    
+  }
+  /* service card style ends */
+  
+  /* card animation style starts */
+  .cart {
+    transition: 0.75s;
+    border-radius: 12px;
+    
+    
+
+  }
+  .cart:hover {
+    box-shadow: 2px 5px 10px gray;
+  }
+
+
+
+  /* card animation style ends */
+  
+  /* service image style starts  */
+  .service img{
+      width: 100%;
+      height: 200px;
+  }
+  /* service image style ends  */
+  
+  
+  /* service info style starts  */
+  .service-info{
+      color:rgb(35, 124, 160);
+      
+  }
+  /* service info style ends  */
+  
+  
+    
+  
+  
