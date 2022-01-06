@@ -1,3 +1,5 @@
+//Pedal Pals Dashboard Responsiveness Updated
+
 import React from "react";
 import { Button } from "react-bootstrap";
 import {
@@ -17,9 +19,11 @@ import AdminRoute from './../../Login/AdminRoute/AdminRoute';
 import ManageAllOrders from '../ManageAllOrders/ManageAllOrders';
 import ManageProducts from '../ManageProducts/ManageProducts';
 import AddProduct from './../AddProduct/AddProduct';
-
+import { Row, Col } from 'react-bootstrap';
 import "./Dashboard.css";
 import MakeAdmin from "../MakeAdmin/MakeAdmin";
+
+
 
 const Dashboard = () => {
 
@@ -28,18 +32,18 @@ const Dashboard = () => {
 
 
     return (
-        <div>
-            <div className="dashboard-container ">
-                <div className="row">
-                    <div className="col-md-3 ">
-                        <div className="dashboard">
-                            <Link to={`${url}`}>
-                                <h4 className="dashboard-menu pt-5">Dashboard</h4>
-                            </Link>
+        <>
+            <Row className="dashboard-container m-0 p-0 border-top border-bottom">
+                <Col sm={2} className="bg-dark">
+                    <Link to={`${url}`}>
+                        <h4 className="dashboard-menu pt-5">Dashboard</h4>
+                    </Link>
 
 
 
-                            {!admin && <Link to={`${url}/pay`}>
+
+
+                     {!admin && <Link to={`${url}/pay`}>
                                 <li className="dashboard-menu mt-5">Pay</li>
                             </Link>}
 
@@ -88,16 +92,20 @@ const Dashboard = () => {
                             <br />
 
                             <Button onClick={logout} variant="light">Logout</Button>
+                    <br />
+                    <br />
 
-
-                        </div>
-                    </div>
-                    <div className="col-md-9">
+                </Col>
+                <Col sm={10}>
+                    <div>
                         <Switch>
-
                             <Route exact path={path}>
                                 <DashboardHome></DashboardHome>
                             </Route>
+
+
+
+
 
                             <Route exact path={`${path}/pay`}>
                                 <Pay></Pay>
@@ -126,12 +134,15 @@ const Dashboard = () => {
                             <AdminRoute exact path={`${path}/manageProducts`}>
                                 <ManageProducts></ManageProducts>
                             </AdminRoute>
+							
                         </Switch>
                     </div>
-                </div>
-            </div>
-        </div>
+                </Col>
+            </Row>
+        </>
+		
     );
 };
 
 export default Dashboard;
+
